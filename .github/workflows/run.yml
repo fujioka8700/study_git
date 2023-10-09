@@ -9,3 +9,4 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           echo "ths is env=${{ env.env_1 }}"
+          echo ${{ github.ref }}
